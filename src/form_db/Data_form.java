@@ -17,7 +17,7 @@ Data_form()throws Exception
 	String url = "jdbc:mysql://localhost:3306/";
 	url = url.concat(d);
  	String uname = "root";
- 	String passi = "Aezakmiam0@";
+ 	String passi = "admin";
  	Connection con = DriverManager.getConnection(url,uname,passi); 
  	Statement st = con.createStatement();
 	
@@ -155,7 +155,7 @@ public String data_check(String x,String y,String p,String d)throws Exception
 	String url = "jdbc:mysql://localhost:3306/";
 	url = url.concat(d);
  	String uname = "root";
- 	String pass = "Aezakmiam0@";
+ 	String pass = "admin";
  	Connection con = DriverManager.getConnection(url,uname,pass); 
  	Statement st = con.createStatement();
 	ResultSet z = st.executeQuery("select "+x+" from "+y+";");
