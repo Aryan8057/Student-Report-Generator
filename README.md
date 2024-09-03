@@ -1,4 +1,4 @@
-# Student Records Management System
+# Student-Report-Generator
 
 This project is a **Java-based desktop application** that manages student records using a **MySQL database**. It provides functionalities like student registration, login, and viewing student scores. The GUI is built using **Swing** and **AWT**, and the application interacts with the database using **JDBC**.
 
@@ -20,7 +20,7 @@ This project is a **Java-based desktop application** that manages student record
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/student-records-management.git
+   git clone https://github.com/your-username/Student-Report-Generator.git
    ```
 
 2. Set up a MySQL database:
