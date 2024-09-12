@@ -96,7 +96,7 @@ public void Score(JFrame f2,String d,String t){
 	String url = "jdbc:mysql://localhost:3306/";
 	url = url.concat(d);
  	String uname = "root";
- 	String pass = "Aezakmiam0@";
+ 	String pass = "admin";
  	Connection con;
 	try {
 	con = DriverManager.getConnection(url,uname,pass); 
